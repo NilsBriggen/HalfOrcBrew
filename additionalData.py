@@ -1,4 +1,4 @@
-data = {
+extension = {
     "Xanathar's Guide to Everything": {
         "subclasses": {
             "war-magic": {
