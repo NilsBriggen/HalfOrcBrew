@@ -15,14 +15,11 @@ class Creator:
         self.requiredChoices = ["race", "class", "level", "stats", "feats", "background", "alignment", "proficiencies", "equipment"]
 
     def getRace(self):
-        temp = []
-        for race in base["races"]:
-            temp.append(race["name"])
+        temp = [race["name"] for race in base["races"]]
         if extended:
             for book in extension.keys():
                 if "races" in extension[book].keys():
-                    for race in extension[book]["races"]:
-                        temp.append(race)
+                    temp.extend(iter(extension[book]["races"]))
         temp.sort()
         for i in range(len(temp)):
             temp[i] = temp[i].replace("-", " ").capitalize()
