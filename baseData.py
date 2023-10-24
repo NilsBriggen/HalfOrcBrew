@@ -4,7 +4,7 @@ base = {
             "name": "Dwarf",
             "desc": "## Dwarf Traits\nYour dwarf character has an assortment of inborn abilities, part and parcel of dwarven nature.",
             "asi-desc": "**_Ability Score Increase._** Your Constitution score increases by 2.",
-            "asi": [{"attributes": ["Constitution"], "value": 2}],
+            "asi": [{"attributes": "CON", "value": 2}],
             "age": "**_Age._** Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years.",
             "alignment": "**_Alignment._** Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order.",
             "size": "**_Size._** Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.",
@@ -19,7 +19,7 @@ base = {
                     "name": "Hill Dwarf",
                     "desc": "As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience.",
                     "asi-desc": "**_Ability Score Increase._** Your Wisdom score increases by 1",
-                    "asi": [{"attributes": ["Wisdom"], "value": 1}],
+                    "asi": [{"attributes": "WIS", "value": 1}],
                     "traits": "**_Dwarven Toughness._** Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.",
                 }
             ],
@@ -28,7 +28,7 @@ base = {
             "name": "Elf",
             "desc": "## Elf Traits\nYour elf character has a variety of natural abilities, the result of thousands of years of elven refinement.",
             "asi-desc": "**_Ability Score Increase._** Your Dexterity score increases by 2.",
-            "asi": [{"attributes": ["Dexterity"], "value": 2}],
+            "asi": [{"attributes": "DEX", "value": 2}],
             "age": "**_Age._** Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.",
             "alignment": "**_Alignment._** Elves love freedom, variety, and self- expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others' freedom as well as their own, and they are more often good than not. The drow are an exception; their exile has made them vicious and dangerous. Drow are more often evil than not.",
             "size": "**_Size._** Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.",
@@ -43,7 +43,7 @@ base = {
                     "name": "High Elf",
                     "desc": "As a high elf, you have a keen mind and a mastery of at least the basics of magic. In many fantasy gaming worlds, there are two kinds of high elves. One type is haughty and reclusive, believing themselves to be superior to non-elves and even other elves. The other type is more common and more friendly, and often encountered among humans and other races.",
                     "asi-desc": "**_Ability Score Increase._** Your Intelligence score increases by 1.",
-                    "asi": [{"attributes": ["Intelligence"], "value": 1}],
+                    "asi": [{"attributes": "INT", "value": 1}],
                     "traits": "**_Elf Weapon Training._** You have proficiency with the longsword, shortsword, shortbow, and longbow.\n\n**_Cantrip._** You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.\n\n**_Extra Language._** You can speak, read, and write one extra language of your choice.",
                 }
             ],
@@ -52,7 +52,7 @@ base = {
             "name": "Halfling",
             "desc": "## Halfling Traits\nYour halfling character has a number of traits in common with all other halflings.",
             "asi-desc": "**_Ability Score Increase._** Your Dexterity score increases by 2.",
-            "asi": [{"attributes": ["Dexterity"], "value": 2}],
+            "asi": [{"attributes": "DEX", "value": 2}],
             "age": "**_Age._** A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.",
             "alignment": "**_Alignment._** Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways.",
             "size": "**_Size._** Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.",
@@ -66,7 +66,7 @@ base = {
                     "name": "Lightfoot",
                     "desc": "As a lightfoot halfling, you can easily hide from notice, even using other people as cover. You're inclined to be affable and get along well with others.\nLightfoots are more prone to wanderlust than other halflings, and often dwell alongside other races or take up a nomadic life.",
                     "asi-desc": "**_Ability Score Increase._** Your Charisma score increases by 1.",
-                    "asi": [{"attributes": ["Charisma"], "value": 1}],
+                    "asi": [{"attributes": "CHA", "value": 1}],
                     "traits": "**_Naturally Stealthy._** You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.",
                 }
             ],
@@ -76,12 +76,12 @@ base = {
             "desc": "## Human Traits\nIt's hard to make generalizations about humans, but your human character has these traits.",
             "asi-desc": "**_Ability Score Increase._** Your ability scores each increase by 1.",
             "asi": [
-                {"attributes": ["Strength"], "value": 1},
-                {"attributes": ["Dexterity"], "value": 1},
-                {"attributes": ["Constitution"], "value": 1},
-                {"attributes": ["Intelligence"], "value": 1},
-                {"attributes": ["Wisdom"], "value": 1},
-                {"attributes": ["Charisma"], "value": 1},
+                {"attributes": "STR", "value": 1},
+                {"attributes": "DEX", "value": 1},
+                {"attributes": "CON", "value": 1},
+                {"attributes": "INT", "value": 1},
+                {"attributes": "WIS", "value": 1},
+                {"attributes": "CHA", "value": 1},
             ],
             "age": "**_Age._** Humans reach adulthood in their late teens and live less than a century.",
             "alignment": "**_Alignment._** Humans tend toward no particular alignment. The best and the worst are found among them.",
@@ -96,8 +96,8 @@ base = {
             "desc": "## Dragonborn Traits\nYour draconic heritage manifests in a variety of traits you share with other dragonborn.",
             "asi-desc": "**_Ability Score Increase._** Your Strength score increases by 2, and your Charisma score increases by 1.",
             "asi": [
-                {"attributes": ["Strength"], "value": 2},
-                {"attributes": ["Charisma"], "value": 1},
+                {"attributes": "STR", "value": 2},
+                {"attributes": "CHA", "value": 1},
             ],
             "age": "**_Age._** Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80.",
             "alignment": "**_Alignment._** Dragonborn tend to extremes, making a conscious choice for one side or the other in the cosmic war between good and evil. Most dragonborn are good, but those who side with evil can be terrible villains.",
@@ -112,7 +112,7 @@ base = {
             "name": "Gnome",
             "desc": "## Gnome Traits\nYour gnome character has certain characteristics in common with all other gnomes.",
             "asi-desc": "**_Ability Score Increase._** Your Intelligence score increases by 2.",
-            "asi": [{"attributes": ["Intelligence"], "value": 2}],
+            "asi": [{"attributes": "INT", "value": 2}],
             "age": "**_Age._** Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years.",
             "alignment": "**_Alignment._** Gnomes are most often good. Those who tend toward law are sages, engineers, researchers, scholars, investigators, or inventors. Those who tend toward chaos are minstrels, tricksters, wanderers, or fanciful jewelers. Gnomes are good-hearted, and even the tricksters among them are more playful than vicious.",
             "size": "**_Size._** Gnomes are between 3 and 4 feet tall and average about 40 pounds. Your size is Small.",
@@ -127,7 +127,7 @@ base = {
                     "name": "Rock Gnome",
                     "desc": "As a rock gnome, you have a natural inventiveness and hardiness beyond that of other gnomes.",
                     "asi-desc": "**_Ability Score Increase._** Your Constitution score increases by 1.",
-                    "asi": [{"attributes": ["Constitution"], "value": 1}],
+                    "asi": [{"attributes": "CON", "value": 1}],
                     "traits": "**_Artificer's Lore._** Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.\n\n**_Tinker._** You have proficiency with artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.\nWhen you create a device, choose one of the following options:\n* _Clockwork Toy._ This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.\n* _Fire Starter._ The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.\n* _Music Box._ When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.",
                 }
             ],
@@ -137,7 +137,7 @@ base = {
             "desc": "## Half-Elf Traits\nYour half-elf character has some qualities in common with elves and some that are unique to half-elves.",
             "asi-desc": "**_Ability Score Increase._** Your Charisma score increases by 2, and two other ability scores of your choice increase by 1.",
             "asi": [
-                {"attributes": ["Charisma"], "value": 2},
+                {"attributes": "CHA", "value": 2},
                 {"attributes": ["Other"], "value": 1},
                 {"attributes": ["Other"], "value": 1},
             ],
@@ -156,8 +156,8 @@ base = {
             "desc": "## Half-Orc Traits\nYour half-orc character has certain traits deriving from your orc ancestry.",
             "asi-desc": "**_Ability Score Increase._** Your Strength score increases by 2, and your Constitution score increases by 1.",
             "asi": [
-                {"attributes": ["Strength"], "value": 2},
-                {"attributes": ["Constitution"], "value": 1},
+                {"attributes": "STR", "value": 2},
+                {"attributes": "CON", "value": 1},
             ],
             "age": "**_Age._** Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.",
             "alignment": "**_Alignment._** Half-orcs inherit a tendency toward chaos from their orc parents and are not strongly inclined toward good. Half-orcs raised among orcs and willing to live out their lives among them are usually evil.",
@@ -174,8 +174,8 @@ base = {
             "desc": "## Tiefling Traits\nTieflings share certain racial traits as a result of their infernal descent.",
             "asi-desc": "**_Ability Score Increase._** Your Intelligence score increases by 1, and your Charisma score increases by 2.",
             "asi": [
-                {"attributes": ["Intelligence"], "value": 1},
-                {"attributes": ["Charisma"], "value": 2},
+                {"attributes": "INT", "value": 1},
+                {"attributes": "CHA", "value": 2},
             ],
             "age": "**_Age._** Tieflings mature at the same rate as humans but live a few years longer.",
             "alignment": "**_Alignment._** Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many tieflings toward a chaotic alignment.",
@@ -3304,7 +3304,7 @@ base = {
             "level_int": 0,
             "school": "Conjuration",
             "class": "Sorcerer, Wizard",
-            "saving_throw_ability": ["dexterity"],
+            "saving_throw_ability": "dEX",
         },
         {
             "name": "Aid",
@@ -3371,7 +3371,7 @@ base = {
             "level_int": 1,
             "school": "Enchantment",
             "class": "Bard, Druid, Ranger, Ritual Caster",
-            "saving_throw_ability": ["Wisdom"],
+            "saving_throw_ability": "WIS",
         },
         {
             "name": "Animal Messenger",
@@ -3485,7 +3485,7 @@ base = {
             "level_int": 8,
             "school": "Enchantment",
             "class": "Druid, Wizard",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Arcane Eye",
@@ -3639,7 +3639,7 @@ base = {
             "class": "Bard, Cleric, Paladin",
             "archetype": "Paladin: Vengeance",
             "oaths": "Vengeance",
-            "saving_throw_ability": ["charisma"],
+            "saving_throw_ability": "cHA",
         },
         {
             "name": "Banishment",
@@ -3658,7 +3658,7 @@ base = {
             "school": "Abjuration",
             "class": "Cleric, Paladin, Sorcerer, Warlock, Wizard",
             "oaths": "Vengeance",
-            "saving_throw_ability": ["charisma"],
+            "saving_throw_ability": "cHA",
         },
         {
             "name": "Barkskin",
@@ -3712,7 +3712,7 @@ base = {
             "level_int": 3,
             "school": "Necromancy",
             "class": "Bard, Cleric, Wizard",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Black Tentacles",
@@ -3747,7 +3747,7 @@ base = {
             "level_int": 6,
             "school": "Evocation",
             "class": "Cleric",
-            "saving_throw_ability": ["dexterity"],
+            "saving_throw_ability": "dEX",
         },
         {
             "name": "Bless",
@@ -3783,7 +3783,7 @@ base = {
             "school": "Necromancy",
             "class": "Druid, Sorcerer, Warlock, Wizard",
             "circles": "Desert",
-            "saving_throw_ability": ["constitution"],
+            "saving_throw_ability": "cON",
         },
         {
             "name": "Blindness/Deafness",
@@ -3802,7 +3802,7 @@ base = {
             "class": "Bard, Cleric, Sorcerer, Warlock, Wizard",
             "archetype": "Warlock: Fiend",
             "patrons": "Fiend",
-            "saving_throw_ability": ["constitution"],
+            "saving_throw_ability": "cON",
         },
         {
             "name": "Blink",
@@ -3874,7 +3874,7 @@ base = {
             "domains": "Light",
             "patrons": "Fiend",
             "shape": " cone",
-            "saving_throw_ability": ["dexterity"],
+            "saving_throw_ability": "dEX",
         },
         {
             "name": "Call Lightning",
@@ -3895,7 +3895,7 @@ base = {
             "domains": "Tempest",
             "circles": "Forest",
             "shape": " cylinder",
-            "saving_throw_ability": ["dexterity"],
+            "saving_throw_ability": "dEX",
         },
         {
             "name": "Calm Emotions",
@@ -3914,7 +3914,7 @@ base = {
             "archetype": "Warlock: Archfey",
             "patrons": "Archfey",
             "shape": " sphere",
-            "saving_throw_ability": ["charisma"],
+            "saving_throw_ability": "cHA",
         },
         {
             "name": "Chain Lightning",
@@ -3932,7 +3932,7 @@ base = {
             "level_int": 6,
             "school": "Evocation",
             "class": "Sorcerer, Wizard",
-            "saving_throw_ability": ["dexterity"],
+            "saving_throw_ability": "dEX",
         },
         {
             "name": "Charm Person",
@@ -3951,7 +3951,7 @@ base = {
             "class": "Bard, Cleric, Druid, Sorcerer, Warlock, Wizard",
             "archetype": "Cleric: Trickery",
             "domains": "Trickery",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Chill Touch",
@@ -3987,7 +3987,7 @@ base = {
             "school": "Necromancy",
             "class": "Sorcerer, Warlock, Wizard",
             "shape": " sphere",
-            "saving_throw_ability": ["constitution"],
+            "saving_throw_ability": "cON",
         },
         {
             "name": "Clairvoyance",
@@ -4041,7 +4041,7 @@ base = {
             "archetype": "Druid: Underdark",
             "circles": "Underdark",
             "shape": " sphere",
-            "saving_throw_ability": ["constitution"],
+            "saving_throw_ability": "cON",
         },
         {
             "name": "Color Spray",
@@ -4079,7 +4079,7 @@ base = {
             "archetype": "Warlock: Fiend",
             "domains": "Knowledge",
             "patrons": "Fiend",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Commune",
@@ -4148,7 +4148,7 @@ base = {
             "school": "Enchantment",
             "class": "Bard",
             "domains": "Order",
-            "saving_throw_ability": ["Wisdom"],
+            "saving_throw_ability": "WIS",
         },
         {
             "name": "Cone of Cold",
@@ -4169,7 +4169,7 @@ base = {
             "archetype": "Druid: Arctic",
             "circles": "Arctic",
             "shape": " cone",
-            "saving_throw_ability": ["constitution"],
+            "saving_throw_ability": "cON",
         },
         {
             "name": "Confusion",
@@ -4190,7 +4190,7 @@ base = {
             "archetype": "Cleric: Knowledge",
             "domains": "Knowledge",
             "shape": " sphere",
-            "saving_throw_ability": ["Wisdom"],
+            "saving_throw_ability": "WIS",
         },
         {
             "name": "Conjure Animals",
@@ -4322,7 +4322,7 @@ base = {
             "school": "Necromancy",
             "class": "Cleric, Druid",
             "rolls-attack": True,
-            "saving_throw_ability": ["constitution"],
+            "saving_throw_ability": "cON",
         },
         {
             "name": "Contingency",
@@ -4599,7 +4599,7 @@ base = {
             "school": "Evocation",
             "class": "Sorcerer, Wizard",
             "shape": " sphere",
-            "saving_throw_ability": ["dexterity"],
+            "saving_throw_ability": "dEX",
         },
         {
             "name": "Demiplane",
@@ -4679,7 +4679,7 @@ base = {
             "class": "Bard, Sorcerer, Warlock, Wizard",
             "archetype": "Warlock: Great Old One",
             "patrons": "Great Old One",
-            "saving_throw_ability": ["Wisdom"],
+            "saving_throw_ability": "WIS",
         },
         {
             "name": "Dimension Door",
@@ -4715,7 +4715,7 @@ base = {
             "class": "Bard, Cleric, Sorcerer, Wizard",
             "archetype": "Cleric: Trickery",
             "domains": "Trickery",
-            "saving_throw_ability": ["Intelligence"],
+            "saving_throw_ability": "INT",
         },
         {
             "name": "Disintegrate",
@@ -4733,7 +4733,7 @@ base = {
             "level_int": 6,
             "school": "Transmutation",
             "class": "Sorcerer, Wizard",
-            "saving_throw_ability": ["dexterity"],
+            "saving_throw_ability": "dEX",
         },
         {
             "name": "Dispel Evil and Good",
@@ -4751,7 +4751,7 @@ base = {
             "school": "Abjuration",
             "class": "Cleric, Paladin",
             "rolls-attack": True,
-            "saving_throw_ability": ["charisma"],
+            "saving_throw_ability": "cHA",
         },
         {
             "name": "Dispel Magic",
@@ -4821,7 +4821,7 @@ base = {
             "level_int": 7,
             "school": "Evocation",
             "class": "Cleric",
-            "saving_throw_ability": ["Charisma"],
+            "saving_throw_ability": "CHA",
         },
         {
             "name": "Dominate Beast",
@@ -4841,7 +4841,7 @@ base = {
             "archetype": "Cleric: Nature, Warlock: Archfey, Great Old One",
             "domains": "Nature",
             "patrons": "Archfey, Great Old One",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Dominate Monster",
@@ -4858,7 +4858,7 @@ base = {
             "level_int": 8,
             "school": "Enchantment",
             "class": "Bard, Sorcerer, Warlock, Wizard",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Dominate Person",
@@ -4878,7 +4878,7 @@ base = {
             "archetype": "Cleric: Trickery, Warlock: Archfey, Great Old One",
             "domains": "Trickery",
             "patrons": "Archfey, Great Old One",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Dream",
@@ -4897,7 +4897,7 @@ base = {
             "class": "Bard, Druid, Warlock, Wizard",
             "archetype": "Druid: Grassland",
             "circles": "Grassland",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Druidcraft",
@@ -4980,7 +4980,7 @@ base = {
             "level_int": 2,
             "school": "Transmutation",
             "class": "Sorcerer, Wizard",
-            "saving_throw_ability": ["Constitution"],
+            "saving_throw_ability": "CON",
         },
         {
             "name": "Entangle",
@@ -5012,7 +5012,7 @@ base = {
             "level_int": 2,
             "school": "Enchantment",
             "class": "Bard, Warlock",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Etherealness",
@@ -5059,7 +5059,7 @@ base = {
             "level_int": 6,
             "school": "Necromancy",
             "class": "Bard, Sorcerer, Warlock, Wizard",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Fabricate",
@@ -5095,7 +5095,7 @@ base = {
             "domains": "Light",
             "patrons": "Archfey",
             "shape": " cube",
-            "saving_throw_ability": ["dexterity"],
+            "saving_throw_ability": "dEX",
         },
         {
             "name": "Faithful Hound",
@@ -5146,7 +5146,7 @@ base = {
             "school": "Illusion",
             "class": "Bard, Sorcerer, Warlock, Wizard",
             "shape": " cone",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Feather Fall",
@@ -5179,7 +5179,7 @@ base = {
             "level_int": 8,
             "school": "Enchantment",
             "class": "Bard, Druid, Warlock, Wizard",
-            "saving_throw_ability": ["intelligence"],
+            "saving_throw_ability": "iNT",
         },
         {
             "name": "Find Familiar",
@@ -5257,7 +5257,7 @@ base = {
             "level_int": 7,
             "school": "Necromancy",
             "class": "Sorcerer, Warlock, Wizard",
-            "saving_throw_ability": ["constitution"],
+            "saving_throw_ability": "cON",
         },
         {
             "name": "Fireball",
@@ -5279,7 +5279,7 @@ base = {
             "domains": "Light",
             "patrons": "Fiend",
             "shape": " sphere",
-            "saving_throw_ability": ["dexterity"],
+            "saving_throw_ability": "dEX",
         },
         {
             "name": "Fire Bolt",
@@ -5331,7 +5331,7 @@ base = {
             "school": "Evocation",
             "class": "Cleric, Druid, Sorcerer",
             "shape": " cube",
-            "saving_throw_ability": ["dexterity"],
+            "saving_throw_ability": "dEX",
         },
         {
             "name": "Flame Blade",
@@ -5372,7 +5372,7 @@ base = {
             "oaths": "Devotion",
             "patrons": "Fiend",
             "shape": " cylinder",
-            "saving_throw_ability": ["dexterity"],
+            "saving_throw_ability": "dEX",
         },
         {
             "name": "Flaming Sphere",
@@ -5393,7 +5393,7 @@ base = {
             "archetype": "Cleric: Light",
             "domains": "Light",
             "shape": " sphere",
-            "saving_throw_ability": ["dexterity"],
+            "saving_throw_ability": "dEX",
         },
         {
             "name": "Flesh to Stone",
@@ -5410,7 +5410,7 @@ base = {
             "level_int": 6,
             "school": "Transmutation",
             "class": "Warlock, Wizard",
-            "saving_throw_ability": ["constitution"],
+            "saving_throw_ability": "cON",
         },
         {
             "name": "Floating Disk",
@@ -5496,7 +5496,7 @@ base = {
             "school": "Evocation",
             "class": "Bard, Warlock, Wizard",
             "shape": " cube",
-            "saving_throw_ability": ["charisma"],
+            "saving_throw_ability": "cHA",
         },
         {
             "name": "Foresight",
@@ -5570,7 +5570,7 @@ base = {
             "class": "Druid, Sorcerer, Warlock, Wizard",
             "archetype": "Druid: Underdark",
             "circles": "Underdark",
-            "saving_throw_ability": ["constitution"],
+            "saving_throw_ability": "cON",
         },
         {
             "name": "Gate",
@@ -5603,7 +5603,7 @@ base = {
             "level_int": 5,
             "school": "Enchantment",
             "class": "Bard, Cleric, Druid, Paladin, Wizard",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Gentle Repose",
@@ -5718,7 +5718,7 @@ base = {
             "level_int": 1,
             "school": "Conjuration",
             "class": "Wizard",
-            "saving_throw_ability": ["dexterity"],
+            "saving_throw_ability": "dEX",
         },
         {
             "name": "Greater Invisibility",
@@ -5770,7 +5770,7 @@ base = {
             "class": "Cleric",
             "domains": "Life, Light",
             "oaths": "Devotion, Crown",
-            "saving_throw_ability": ["Dexterity"],
+            "saving_throw_ability": "DEX",
         },
         {
             "name": "Guards and Wards",
@@ -5838,7 +5838,7 @@ base = {
             "archetype": "Cleric: Tempest",
             "domains": "Tempest",
             "shape": " line",
-            "saving_throw_ability": ["strength"],
+            "saving_throw_ability": "sTR",
         },
         {
             "name": "Hallow",
@@ -5857,7 +5857,7 @@ base = {
             "class": "Cleric, Warlock",
             "archetype": "Warlock: Fiend",
             "patrons": "Fiend",
-            "saving_throw_ability": ["charisma"],
+            "saving_throw_ability": "cHA",
         },
         {
             "name": "Hallucinatory Terrain",
@@ -5876,7 +5876,7 @@ base = {
             "class": "Bard, Druid, Warlock, Wizard",
             "circles": "Desert",
             "shape": " cube",
-            "saving_throw_ability": ["Intelligence"],
+            "saving_throw_ability": "INT",
         },
         {
             "name": "Harm",
@@ -5892,7 +5892,7 @@ base = {
             "level_int": 6,
             "school": "Necromancy",
             "class": "Cleric",
-            "saving_throw_ability": ["constitution"],
+            "saving_throw_ability": "cON",
         },
         {
             "name": "Haste",
@@ -5961,7 +5961,7 @@ base = {
             "level_int": 2,
             "school": "Transmutation",
             "class": "Bard, Druid",
-            "saving_throw_ability": ["constitution"],
+            "saving_throw_ability": "cON",
         },
         {
             "name": "Hellish Rebuke",
@@ -5979,7 +5979,7 @@ base = {
             "school": "Evocation",
             "class": "Paladin, Warlock",
             "archetype": "Paladin: Oathbreaker",
-            "saving_throw_ability": ["Dexterity"],
+            "saving_throw_ability": "DEX",
         },
         {
             "name": "Heroes' Feast",
@@ -6029,7 +6029,7 @@ base = {
             "class": "Bard, Warlock, Wizard",
             "archetype": "Warlock: Great Old One",
             "patrons": "Great Old One",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Hold Monster",
@@ -6050,7 +6050,7 @@ base = {
             "archetype": "Cleric: War, Paladin: Vengeance",
             "domains": "War",
             "oaths": "Vengeance",
-            "saving_throw_ability": ["Wisdom"],
+            "saving_throw_ability": "WIS",
         },
         {
             "name": "Hold Person",
@@ -6071,7 +6071,7 @@ base = {
             "archetype": "Paladin: Vengeance",
             "circles": "Arctic",
             "oaths": "Vengeance",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Holy Aura",
@@ -6088,7 +6088,7 @@ base = {
             "level_int": 8,
             "school": "Abjuration",
             "class": "Cleric",
-            "saving_throw_ability": ["constitution"],
+            "saving_throw_ability": "cON",
         },
         {
             "name": "Hunter's Mark",
@@ -6124,7 +6124,7 @@ base = {
             "school": "Illusion",
             "class": "Bard, Sorcerer, Warlock, Wizard",
             "shape": " cube",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Ice Storm",
@@ -6147,7 +6147,7 @@ base = {
             "circles": "Arctic",
             "oaths": "Ancients",
             "shape": " cylinder",
-            "saving_throw_ability": ["dexterity"],
+            "saving_throw_ability": "dEX",
         },
         {
             "name": "Identify",
@@ -6199,7 +6199,7 @@ base = {
             "school": "Abjuration",
             "class": "Warlock, Wizard",
             "shape": " sphere",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Incendiary Cloud",
@@ -6216,7 +6216,7 @@ base = {
             "school": "Conjuration",
             "class": "Sorcerer, Wizard",
             "shape": " sphere",
-            "saving_throw_ability": ["dexterity"],
+            "saving_throw_ability": "dEX",
         },
         {
             "name": "Inflict Wounds",
@@ -6254,7 +6254,7 @@ base = {
             "domains": "Nature, Tempest",
             "circles": "Desert, Grassland, Swamp, Underdark",
             "shape": " sphere",
-            "saving_throw_ability": ["constitution"],
+            "saving_throw_ability": "cON",
         },
         {
             "name": "Instant Summons",
@@ -6305,7 +6305,7 @@ base = {
             "level_int": 6,
             "school": "Enchantment",
             "class": "Bard, Wizard",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Jump",
@@ -6387,7 +6387,7 @@ base = {
             "level_int": 2,
             "school": "Transmutation",
             "class": "Sorcerer, Wizard",
-            "saving_throw_ability": ["constitution"],
+            "saving_throw_ability": "cON",
         },
         {
             "name": "Light",
@@ -6404,7 +6404,7 @@ base = {
             "level_int": 0,
             "school": "Evocation",
             "class": "Bard, Cleric, Sorcerer, Wizard",
-            "saving_throw_ability": ["dexterity"],
+            "saving_throw_ability": "dEX",
         },
         {
             "name": "Lightning Bolt",
@@ -6425,7 +6425,7 @@ base = {
             "archetype": "Druid: Mountain",
             "circles": "Mountain",
             "shape": " line",
-            "saving_throw_ability": ["dexterity"],
+            "saving_throw_ability": "dEX",
         },
         {
             "name": "Locate Animals or Plants",
@@ -6541,7 +6541,7 @@ base = {
             "school": "Abjuration",
             "class": "Cleric, Paladin, Warlock, Wizard",
             "shape": " cylinder",
-            "saving_throw_ability": ["charisma"],
+            "saving_throw_ability": "cHA",
         },
         {
             "name": "Magic Jar",
@@ -6558,7 +6558,7 @@ base = {
             "level_int": 6,
             "school": "Necromancy",
             "class": "Wizard",
-            "saving_throw_ability": ["charisma"],
+            "saving_throw_ability": "cHA",
         },
         {
             "name": "Magic Missile",
@@ -6644,7 +6644,7 @@ base = {
             "school": "Illusion",
             "class": "Bard, Sorcerer, Warlock, Wizard",
             "shape": " cube",
-            "saving_throw_ability": ["Intelligence"],
+            "saving_throw_ability": "INT",
         },
         {
             "name": "Mass Cure Wounds",
@@ -6711,7 +6711,7 @@ base = {
             "level_int": 6,
             "school": "Enchantment",
             "class": "Bard, Sorcerer, Warlock, Wizard",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Maze",
@@ -6792,7 +6792,7 @@ base = {
             "school": "Evocation",
             "class": "Sorcerer, Wizard",
             "shape": " sphere",
-            "saving_throw_ability": ["dexterity"],
+            "saving_throw_ability": "dEX",
         },
         {
             "name": "Mind Blank",
@@ -6825,7 +6825,7 @@ base = {
             "school": "Illusion",
             "class": "Bard, Sorcerer, Warlock, Wizard",
             "shape": " cube",
-            "saving_throw_ability": ["Intelligence"],
+            "saving_throw_ability": "INT",
         },
         {
             "name": "Mirage Arcane",
@@ -6910,7 +6910,7 @@ base = {
             "class": "Bard, Cleric, Wizard",
             "archetype": "Cleric: Trickery",
             "domains": "Trickery",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Moonbeam",
@@ -6931,7 +6931,7 @@ base = {
             "archetype": "Paladin: Ancients",
             "oaths": "Ancients",
             "shape": " cylinder",
-            "saving_throw_ability": ["constitution"],
+            "saving_throw_ability": "cON",
         },
         {
             "name": "Move Earth",
@@ -7019,7 +7019,7 @@ base = {
             "level_int": 4,
             "school": "Illusion",
             "class": "Wizard",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Phantom Steed",
@@ -7067,7 +7067,7 @@ base = {
             "level_int": 5,
             "school": "Abjuration",
             "class": "Bard, Cleric, Druid, Wizard",
-            "saving_throw_ability": ["charisma"],
+            "saving_throw_ability": "cHA",
         },
         {
             "name": "Plane Shift",
@@ -7085,7 +7085,7 @@ base = {
             "school": "Conjuration",
             "class": "Cleric, Sorcerer, Warlock, Wizard",
             "rolls-attack": True,
-            "saving_throw_ability": ["charisma"],
+            "saving_throw_ability": "cHA",
         },
         {
             "name": "Plant Growth",
@@ -7122,7 +7122,7 @@ base = {
             "level_int": 0,
             "school": "Conjuration",
             "class": "Druid, Sorcerer, Warlock, Wizard",
-            "saving_throw_ability": ["Constitution"],
+            "saving_throw_ability": "CON",
         },
         {
             "name": "Polymorph",
@@ -7141,7 +7141,7 @@ base = {
             "class": "Bard, Cleric, Druid, Sorcerer, Wizard",
             "archetype": "Cleric: Trickery",
             "domains": "Trickery",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Power Word Kill",
@@ -7172,7 +7172,7 @@ base = {
             "level_int": 8,
             "school": "Enchantment",
             "class": "Bard, Sorcerer, Warlock, Wizard",
-            "saving_throw_ability": ["constitution"],
+            "saving_throw_ability": "cON",
         },
         {
             "name": "Prayer of Healing",
@@ -7290,7 +7290,7 @@ base = {
             "school": "Illusion",
             "class": "Bard, Wizard",
             "shape": " cube",
-            "saving_throw_ability": ["Intelligence"],
+            "saving_throw_ability": "INT",
         },
         {
             "name": "Project Image",
@@ -7307,7 +7307,7 @@ base = {
             "level_int": 7,
             "school": "Illusion",
             "class": "Bard, Wizard",
-            "saving_throw_ability": ["Intelligence"],
+            "saving_throw_ability": "INT",
         },
         {
             "name": "Protection from Energy",
@@ -7407,7 +7407,7 @@ base = {
             "school": "Necromancy",
             "class": "Warlock, Wizard",
             "rolls-attack": True,
-            "saving_throw_ability": ["constitution"],
+            "saving_throw_ability": "cON",
         },
         {
             "name": "Ray of Frost",
@@ -7489,7 +7489,7 @@ base = {
             "school": "Evocation",
             "class": "Wizard",
             "shape": " sphere",
-            "saving_throw_ability": ["dexterity"],
+            "saving_throw_ability": "dEX",
         },
         {
             "name": "Resistance",
@@ -7539,7 +7539,7 @@ base = {
             "school": "Transmutation",
             "class": "Druid, Sorcerer, Wizard",
             "shape": " cylinder",
-            "saving_throw_ability": ["dexterity"],
+            "saving_throw_ability": "dEX",
         },
         {
             "name": "Revivify",
@@ -7589,7 +7589,7 @@ base = {
             "level_int": 0,
             "school": "Evocation",
             "class": "Cleric",
-            "saving_throw_ability": ["dexterity"],
+            "saving_throw_ability": "dEX",
         },
         {
             "name": "Sanctuary",
@@ -7608,7 +7608,7 @@ base = {
             "class": "Cleric, Paladin",
             "archetype": "Paladin: Devotion",
             "oaths": "Devotion",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Scorching Ray",
@@ -7649,7 +7649,7 @@ base = {
             "domains": "Knowledge, Light",
             "circles": "Coast, Swamp",
             "oaths": "Vengeance",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Secret Chest",
@@ -7770,7 +7770,7 @@ base = {
             "archetype": "Cleric: Tempest",
             "domains": "Tempest",
             "shape": " sphere",
-            "saving_throw_ability": ["Constitution"],
+            "saving_throw_ability": "CON",
         },
         {
             "name": "Shield",
@@ -7871,7 +7871,7 @@ base = {
             "school": "Illusion",
             "class": "Bard, Sorcerer, Wizard",
             "shape": " cube",
-            "saving_throw_ability": ["Intelligence"],
+            "saving_throw_ability": "INT",
         },
         {
             "name": "Simulacrum",
@@ -7947,7 +7947,7 @@ base = {
             "archetype": "Druid: Arctic",
             "circles": "Arctic",
             "shape": " cube",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Spare the Dying",
@@ -8050,7 +8050,7 @@ base = {
             "archetype": "Cleric: Nature",
             "domains": "Nature",
             "circles": "Arctic, Mountain",
-            "saving_throw_ability": ["Wisdom"],
+            "saving_throw_ability": "WIS",
         },
         {
             "name": "Spirit Guardians",
@@ -8069,7 +8069,7 @@ base = {
             "school": "Conjuration",
             "class": "Cleric",
             "domains": "War",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Spiritual Weapon",
@@ -8108,7 +8108,7 @@ base = {
             "circles": "Swamp, Underdark",
             "patrons": "Fiend",
             "shape": " sphere",
-            "saving_throw_ability": ["constitution"],
+            "saving_throw_ability": "cON",
         },
         {
             "name": "Stone Shape",
@@ -8180,7 +8180,7 @@ base = {
             "class": "Bard, Cleric, Sorcerer, Warlock, Wizard",
             "archetype": "Cleric: Knowledge",
             "domains": "Knowledge",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Sunbeam",
@@ -8198,7 +8198,7 @@ base = {
             "school": "Evocation",
             "class": "Druid, Sorcerer, Wizard",
             "shape": " line",
-            "saving_throw_ability": ["constitution"],
+            "saving_throw_ability": "cON",
         },
         {
             "name": "Sunburst",
@@ -8215,7 +8215,7 @@ base = {
             "level_int": 8,
             "school": "Evocation",
             "class": "Druid, Sorcerer, Wizard",
-            "saving_throw_ability": ["constitution"],
+            "saving_throw_ability": "cON",
         },
         {
             "name": "Symbol",
@@ -8339,7 +8339,7 @@ base = {
             "archetype": "Cleric: Tempest",
             "domains": "Tempest",
             "shape": " cube",
-            "saving_throw_ability": ["constitution"],
+            "saving_throw_ability": "cON",
         },
         {
             "name": "Time Stop",
@@ -8437,7 +8437,7 @@ base = {
             "level_int": 9,
             "school": "Transmutation",
             "class": "Bard, Warlock, Wizard",
-            "saving_throw_ability": ["Wisdom"],
+            "saving_throw_ability": "WIS",
         },
         {
             "name": "True Resurrection",
@@ -8534,7 +8534,7 @@ base = {
             "level_int": 0,
             "school": "Enchantment",
             "class": "Bard",
-            "saving_throw_ability": ["Wisdom"],
+            "saving_throw_ability": "WIS",
         },
         {
             "name": "Wall of Fire",
@@ -8555,7 +8555,7 @@ base = {
             "archetype": "Cleric: Light, Warlock: Fiend",
             "domains": "Light",
             "patrons": "Fiend",
-            "saving_throw_ability": ["Dexterity"],
+            "saving_throw_ability": "DEX",
         },
         {
             "name": "Wall of Force",
@@ -8609,7 +8609,7 @@ base = {
             "school": "Evocation",
             "class": "Druid, Sorcerer, Wizard",
             "circles": "Desert, Mountain",
-            "saving_throw_ability": ["dexterity"],
+            "saving_throw_ability": "dEX",
         },
         {
             "name": "Wall of Thorns",
@@ -8628,7 +8628,7 @@ base = {
             "school": "Conjuration",
             "class": "Druid",
             "shape": " line",
-            "saving_throw_ability": ["dexterity"],
+            "saving_throw_ability": "dEX",
         },
         {
             "name": "Warding Bond",
@@ -8714,7 +8714,7 @@ base = {
             "school": "Illusion",
             "class": "Wizard",
             "shape": " sphere",
-            "saving_throw_ability": ["wisdom"],
+            "saving_throw_ability": "wIS",
         },
         {
             "name": "Wind Walk",
@@ -8749,7 +8749,7 @@ base = {
             "class": "Cleric, Druid, Ranger",
             "archetype": "Cleric: Nature",
             "domains": "Nature",
-            "saving_throw_ability": ["strength"],
+            "saving_throw_ability": "sTR",
         },
         {
             "name": "Wish",
@@ -8797,7 +8797,7 @@ base = {
             "class": "Bard, Cleric, Paladin",
             "oaths": "Devotion",
             "shape": " sphere",
-            "saving_throw_ability": ["Charisma"],
+            "saving_throw_ability": "CHA",
         },
     ],
     "weapons": [
